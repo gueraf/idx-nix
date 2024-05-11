@@ -6,35 +6,35 @@
   packages = [
     # See https://gist.github.com/fufexan/2e7020d05ff940c255d74d5c5e712815
     # builder
-    pkgs.gnumake,
-    pkgs.cmake,
-    pkgs.bear,
-    pkgs.bazel,
-    pkgs.bazel-watcher,
+    pkgs.gnumake
+    pkgs.cmake
+    pkgs.bear
+    pkgs.bazel
+    pkgs.bazel-watcher
 
     # debugger
-    pkgs.llvm.lldb,
-    pkgs.gdb,
+    pkgs.llvm.lldb
+    pkgs.gdb
 
     # fix headers not found
-    pkgs.clang-tools,
+    pkgs.clang-tools
 
     # LSP and compiler
-    pkgs.llvm.libstdcxxClang,
+    pkgs.llvm.libstdcxxClang
 
     # other tools
-    pkgs.cppcheck,
-    pkgs.llvm.libllvm,
-    pkgs.valgrind,
-    pkgs.mymake,
-    pkgs.nixfmt,
+    pkgs.cppcheck
+    pkgs.llvm.libllvm
+    pkgs.valgrind
+    pkgs.mymake
+    pkgs.nixfmt
 
     # stdlib for cpp
-    pkgs.llvm.libcxx,
+    pkgs.llvm.libcxx
 
     # libs
-    pkgs.glm,
-    pkgs.SDL2,
+    pkgs.glm
+    pkgs.SDL2
     pkgs.SDL2_gfx
   ];
 
