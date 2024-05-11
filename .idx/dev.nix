@@ -9,8 +9,8 @@
     # pkgs.gnumake
     # pkgs.cmake
     # pkgs.bear
-    # pkgs.bazel
-    # pkgs.bazel-watcher
+    pkgs.bazel
+    pkgs.bazel-watcher
 
     # debugger
     # pkgs.llvm.lldb
