@@ -28,6 +28,7 @@
     # pkgs.valgrind
     # pkgs.mymake
     # pkgs.nixfmt
+    pkgs.git
 
     # stdlib for cpp
     # pkgs.llvm.libcxx
