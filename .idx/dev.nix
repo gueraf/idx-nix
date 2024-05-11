@@ -1,5 +1,6 @@
 # See https://developers.google.com/idx/guides/customize-idx-env.
-{ pkgs, ... }: {
+{ config, pkgs, ... }:
+{
   channel = "stable-23.11"; # or "unstable"
 
   # Use https://search.nixos.org/packages to find packages
@@ -29,6 +30,8 @@
     # pkgs.mymake
     # pkgs.nixfmt
     pkgs.git
+    pkgs.tmux
+    pkgs.home-manager
 
     # stdlib for cpp
     # pkgs.llvm.libcxx
