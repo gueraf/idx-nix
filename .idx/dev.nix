@@ -17,7 +17,7 @@
     # pkgs.gdb
 
     # fix headers not found
-    # pkgs.clang-tools
+    pkgs.clang-tools
 
     # LSP and compiler
     # pkgs.llvm.libstdcxxClang
